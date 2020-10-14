@@ -1,0 +1,58 @@
+/* Eriek Pawirodinomo */
+
+.add_to_cart_button:not(#qib_id):not(#qib_id){
+	display:block;
+	text-align: center;
+	margin: auto;
+}
+
+.es-product-buttons-wrap {
+  background: white;
+  margin: 10px 0 0;
+  text-align: center;
+	border-top: none;
+}
+
+.widget li.product:hover .es-product-buttons-wrap,
+li.product:hover .es-product-buttons-wrap {
+  background-color: white ;
+} 
+
+/* .widget li.product:hover .es-product-buttons-wrap,
+li.product:hover .es-product-buttons-wrap {
+  background: #333;
+} */
+
+.widget li.product: active .es-product-buttons-wrap,
+li.product:active .es-product-buttons-wrap {
+  color: red ;
+} 
+
+.widget li.product:hover .es-product-buttons-wrap a,
+li.product:hover .es-product-buttons-wrap a,
+.woocommerce-active ul.products li.product:hover .button {
+  color: white;
+}
+
+.woocommerce-active .es-product-buttons-wrap a,
+.woocommerce-active ul.products li.product .button {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  color: #ff0000;
+  font-size: 12px;
+  background: none;
+  border-radius: 0;
+  line-height: 1;
+  font-weight: 400;
+  text-transform: capitalize;
+  vertical-align: top;
+  margin-top: 0;
+  height: auto;
+}
+.woocommerce-loop-product__title{
+	height: 115px;
+}
+.price{
+	width: auto;
+}
