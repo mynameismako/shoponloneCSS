@@ -1,11 +1,13 @@
 /* Eriek Pawirodinomo */
 
+/* add to cart button align */
 .add_to_cart_button:not(#qib_id):not(#qib_id){
 	display:block;
 	text-align: center;
 	margin: auto;
 }
 
+/* wrapping of add to cart button and qty button */
 .es-product-buttons-wrap {
   background: white;
   margin: 10px 0 0;
@@ -13,27 +15,18 @@
 	border-top: none;
 }
 
+/* hover on product and price button */
 .widget li.product:hover .es-product-buttons-wrap,
 li.product:hover .es-product-buttons-wrap {
-  background-color: white ;
+  background: white;
 } 
 
-/* .widget li.product:hover .es-product-buttons-wrap,
-li.product:hover .es-product-buttons-wrap {
-  background: #333;
-} */
-
-.widget li.product: active .es-product-buttons-wrap,
-li.product:active .es-product-buttons-wrap {
-  color: red ;
-} 
-
-.widget li.product:hover .es-product-buttons-wrap a,
-li.product:hover .es-product-buttons-wrap a,
-.woocommerce-active ul.products li.product:hover .button {
-  color: white;
+/* color changed on add to cart button when hover on product */
+.woocommerce-active ul.products :hover .button{
+  color: #ff0000;
 }
 
+/* add to cart button */
 .woocommerce-active .es-product-buttons-wrap a,
 .woocommerce-active ul.products li.product .button {
   display: block;
@@ -47,12 +40,18 @@ li.product:hover .es-product-buttons-wrap a,
   font-weight: 400;
   text-transform: capitalize;
   vertical-align: top;
-  margin-top: 0;
+  margin-top: 3;
   height: auto;
 }
+
+/* product text */
 .woocommerce-loop-product__title{
-	height: 115px;
+	height: 60px;
+	overflow:hidden;
+  max-height: 5ch;
 }
+
+/* product price */
 .price{
 	width: auto;
 }
