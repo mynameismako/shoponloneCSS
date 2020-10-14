@@ -1,3 +1,4 @@
+
 /* Eriek Pawirodinomo */
 
 /* add to cart button align */
@@ -46,7 +47,7 @@ li.product:hover .es-product-buttons-wrap {
 
 /* product text */
 .woocommerce-loop-product__title{
-	height: 60px;
+	height: 40px;
 	overflow:hidden;
   max-height: 5ch;
 }
@@ -54,4 +55,12 @@ li.product:hover .es-product-buttons-wrap {
 /* product price */
 .price{
 	width: auto;
+}
+
+h2{
+	font-size: 13px !important; 
+}
+
+.woocommerce-Price-amount{
+	font-size: 13px !important;
 }
